@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Test_Table" max_length="40" name="x_58872_needit_test_table" type="collection">
+        <element display="true" label="New Test Field 2" max_length="100" name="new_test_field_2" type="string"/>
+        <element label="Username" mandatory="true" max_length="32" name="username" reference="sys_user" type="reference"/>
+    </element>
+</database>
